@@ -60,13 +60,13 @@ conversation(wynne, 25, 1000, "red")
 
 ~ conversation2: search or create groups of words and see conversation around bi-grams
 
-conversation[1] is a boolean search query in quotes
+conversation2[1] is a boolean search query in quotes
 
-conversation[2] is number of results
+conversation2[2] is number of results
 
-conversation[3] is number of recent tweets
+conversation2[3] is number of recent tweets
 
-conversation[4] is basic colour scheme in quotes (default black)
+conversation2[4] is basic colour scheme in quotes (default black)
 
 add any junk terms to the word list in custom_stop_words
   example
