@@ -9,6 +9,7 @@ top_words[3] is number of recent tweets
 top_words[4] is basic colour scheme in quotes (default black)
 add any junk terms to the word list in custom_stop_words
   example
+
 top_words("#onpoli", 25, 1000, "red")
 
 -----------------------------------------------------------------------------------------
@@ -20,6 +21,7 @@ timeline_tweet[3] is number of recent tweets
 timeline_tweet[4] is basic colour scheme in quotes (default black)
 add any junk terms to the word list in custom_stop_words
   example
+
 timeline_tweets("Kathleen_Wynne", 15, 500, "red")
 timeline_tweets("AndreaHorwath", 15, 500, "orange")
 timeline_tweets("fordnation", 15, 500, "blue")
@@ -33,6 +35,7 @@ conversation[3] is number of recent tweets
 conversation[4] is basic colour scheme in quotes (default black)
 add any junk terms to the word list in custom_stop_words
   example
+
 wynne <- "@kathleen_wynne OR kathleen wynne OR wynne OR @OntLiberal"
 conversation(wynne, 25, 1000, "red")
 
@@ -45,5 +48,6 @@ conversation[3] is number of recent tweets
 conversation[4] is basic colour scheme in quotes (default black)
 add any junk terms to the word list in custom_stop_words
   example
+
 wynne <- "@kathleen_wynne OR kathleen wynne OR wynne OR @OntLiberal"
 conversation2(wynne, 25, 1000, "red")
