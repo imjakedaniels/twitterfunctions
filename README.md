@@ -23,7 +23,9 @@ add any junk terms to the word list in custom_stop_words
   example
 
 timeline_tweets("Kathleen_Wynne", 15, 500, "red")
+
 timeline_tweets("AndreaHorwath", 15, 500, "orange")
+
 timeline_tweets("fordnation", 15, 500, "blue")
 
 -----------------------------------------------------------------------------------------
